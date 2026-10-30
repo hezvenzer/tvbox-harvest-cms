@@ -9,7 +9,7 @@
 # The free plan is sufficient: the Worker only performs a handful of CDN reads per request
 # (cached per isolate), and snapshots change a few times a day at most.
 
-name = "tvbox-harvest-gateway"
+name = "tvbox-harvest-cms-gateway"
 main = "src/index.js"
 compatibility_date = "2024-11-01"
 
