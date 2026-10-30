@@ -1,7 +1,15 @@
 # Regex blacklist for adult content, applied to vod_name / vod_remarks / content.
 # Use sparingly: regex over-matching silently removes legitimate titles.
-(?i)\bxxx\b
-(?i)\bporn\b
-(?i)\bhentai\b
-(?i)\bnsfw\b
-(?i)av\d{2,4}\b
+
+#用于成人内容的正则黑名单，应用于 vod_name / vod_remarks / content.
+#谨慎使用：正则过度匹配会在不报错的情况下误删正常标题。
+
+
+
+
+
+#(?i)\bxxx\b
+#(?i)\bporn\b
+#(?i)\bhentai\b
+#(?i)\bnsfw\b
+#(?i)av\d{2,4}\b
