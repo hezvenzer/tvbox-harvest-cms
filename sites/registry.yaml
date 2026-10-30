@@ -355,3 +355,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: gh-proxy-com
+  name: gh-proxy.com
+  base_url: https://gh-proxy.com
+  adapter: auto
+  tier: 0
+  enabled: true
+  origin:
+    type: issue
+    issue: 6
+    at: '2026-10-30T13:30:49+00:00'
+  last_run: {}
