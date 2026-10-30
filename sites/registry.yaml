@@ -301,4 +301,9 @@ sites:
     type: issue
     issue: 2
     at: '2026-10-30T09:37:42+00:00'
-  last_run: {}
+  last_run:
+    at: '2026-10-30T09:38:45+00:00'
+    status: failed
+    vods: 0
+    lines: 0
+    filtered: 0

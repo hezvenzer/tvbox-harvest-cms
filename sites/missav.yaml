@@ -29,7 +29,72 @@ tvbox: {}
 detect:
   version: 1
   stale: false
-  evidence: {}
+  evidence:
+    stages:
+      - stage: preflight
+        status: 200
+        server: cloudflare
+        robots_status: 404
+        go_default_404: false
+      - stage: tier1_no_match
+        tried:
+          - path: /api.php/provide/vod/
+            status: 404
+            json: false
+          - path: /api.php/provide/vod/at/json/
+            status: 404
+            json: false
+          - path: /api.php/provide/vod
+            status: 404
+            json: false
+          - path: /api/provide/vod/
+            status: 404
+            json: false
+      - stage: tier2_no_match
+        candidates_tried: 5
+      - stage: tier3_probe
+        sample: https://missav.ws/en/jimmy-014
+        static_m3u8: 0
+        extracted_episodes: 0
+        player_marker_count: 2
+        player_markers:
+          - hls.js
+          - hls.min.js
+      - stage: tier4_error
+        error: "Error: BrowserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell\n\
+          ╔═════════════════════════════"
+      - stage: indeterminate
+    notes:
+      - player container present but zero static media URLs -> runtime-only
+    facts:
+      server: cloudflare
+      html_bytes: 335063
+      is_html: true
+      maccms_markers: []
+      detail_link_clusters:
+        - pattern: /en/{id}
+          count: 124
+        - pattern: /{id}/en/{id}
+          count: 41
+        - pattern: /{id}
+          count: 31
+        - pattern: /localizedUrl(
+          count: 24
+        - pattern: /itemUrl(item)
+          count: 20
+        - pattern: /{id}/en/uncensored-leak
+          count: 4
+        - pattern: '/item.dvd_id '
+          count: 4
+        - pattern: /en/pppe-196-english-subtitle
+          count: 4
+      detail_html_bytes: 206991
+      detail_sample_url: https://missav.ws/en/jimmy-014
+      detail_cluster: /en/{id}
+  checked_at: '2026-10-30T09:38:45+00:00'
+  result: auto
+  tier: 0
+  status: unknown
 fields: {}
 selectors: {}
 browser: {}
