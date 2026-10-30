@@ -291,3 +291,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: missav
+  name: missav
+  base_url: https://missav.ws
+  adapter: auto
+  tier: 0
+  enabled: true
+  origin:
+    type: issue
+    issue: 2
+    at: '2026-10-30T09:37:42+00:00'
+  last_run: {}
