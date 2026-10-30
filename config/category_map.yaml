@@ -2,6 +2,11 @@
 # TVBox-friendly buckets. Unmapped names are kept verbatim in the report so the table
 # can be iterated on (see data/reports/<date>.json -> unknown_categories).
 
+# 分类归一化：将每个站点的原始分类名称映射到一小组
+# 适合TVBox的分类中。未映射的名称会在报告中原样保留，以便后续迭代
+# 该映射表（参见 data/reports/<date>.json -> unknown_categories).
+
+
 targets: [电影, 连续剧, 综艺, 动漫, 纪录片, 短剧, 体育, 其他]
 
 rules:
@@ -94,6 +99,10 @@ rules:
   # decision ("this belongs nowhere in particular"), which is different from a category that
   # matched nothing at all -- only the latter is reported as unrecognised, so the report stays
   # actionable instead of filling up with known-irrelevant entries.
+  
+  # 其他——是一个真正的目标分类，而不仅仅是兜底项。在这里列出一个分类是有意为之的决定（“它不属于任何特定分类”），
+  #这与一个完全未匹配到任何分类的情况不同——只有后者会被报告为未识别，这样报告才能保持可操作性，而不会堆满已知无关的条目。
+  
   其他:
     - 其他
     - 演员
@@ -116,6 +125,9 @@ rules:
 # Order is load-bearing: the specific checks must come before the generic suffix rules, or
 # "AI漫剧" would be swallowed by the `剧` rule and land in 连续剧, and "记录片" would be
 # swallowed by the `片` rule and land in 电影.
+
+# 有序的兜底规则，仅在精确映射表（以及后缀重试）失败后才应用。
+# 顺序至关重要：具体检查必须排在通用后缀规则之前，否则“AI漫剧”会被 剧 规则吞掉并归入-连续剧，而“记录片”会被片规则吞掉并归入-电影。
 fallback_rules:
   - {match: contains, pattern: 纪录, target: 纪录片}
   - {match: contains, pattern: 记录, target: 纪录片}
@@ -148,19 +160,22 @@ unknown_policy: 其他
 # Categories that are dropped outright, regardless of any other mapping. On aggregated CMS
 # sites the category name is the most reliable -- and cheapest -- content signal available:
 # a category literally called "成人" needs no body-text analysis to act on.
+
+# 无论其他映射如何，都会被直接丢弃的分类。在聚合型 CMS站点上，分类名称是可用内容信号中最可靠——也最廉价——的一种：一个字面就叫“成人”的分类，无需做正文分析即可据此采取行动.
+# 只是想在测试或合法配置中临时停用这条正则黑名单，注释掉的方法很简单：在每一行前面加 #
 drop_categories:
-  - 成人
-  - 成人片
-  - 伦理
-  - 伦理片
-  - 里番
-  - 情色
-  - 三级
-  - 三级片
-  - 福利
-  - 福利片
+  #- 成人
+  #- 成人片
+  #- 伦理
+  #- 伦理片
+  #- 里番
+  #- 情色
+  #- 三级
+  #- 三级片
+  #- 福利
+  #- 福利片
   - 棋牌
   - 彩票
-  - 真人娱乐
+  #- 真人娱乐
   - 博彩
-  - 深夜剧场
+  #- 深夜剧场
