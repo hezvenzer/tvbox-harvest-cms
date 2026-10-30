@@ -7,36 +7,6 @@
       "api": "https://aosikazy9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "playerType": 2,
-      "style": {
-        "type": "rect",
-        "ratio": 1.4
-      }
-    },
-    {
-      "key": "niuniuzy",
-      "name": "牛牛资源",
-      "type": 1,
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "playerType": 2,
-      "style": {
-        "type": "rect",
-        "ratio": 1.4
-      }
-    },
-    {
-      "key": "kuaichezy",
-      "name": "快车资源",
-      "type": 1,
-      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
@@ -121,6 +91,21 @@
       }
     },
     {
+      "key": "kuaichezy",
+      "name": "快车资源",
+      "type": 1,
+      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.4
+      }
+    },
+    {
       "key": "lzizy",
       "name": "量子影视",
       "type": 1,
@@ -151,13 +136,28 @@
       }
     },
     {
+      "key": "niuniuzy",
+      "name": "牛牛资源",
+      "type": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.4
+      }
+    },
+    {
       "key": "ok",
       "name": "OK资源",
       "type": 1,
       "api": "https://api.okzyw.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -265,24 +265,16 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-41089994171",
-  "generated_at": "2026-10-30T16:30:40+00:00",
+  "version": "direct-41103149658",
+  "generated_at": "2026-10-30T18:08:54+00:00",
   "generated_by": "tvbox-harvest",
+  "_skipped": [
+    {
+      "key": "lxyy-4k60",
+      "reason": "no_api"
+    }
+  ],
   "_carried_over": [
-    "9",
-    "api-niuniuzy-me",
-    "dbzy",
-    "ffzy",
-    "guangsu",
-    "jinyingzy",
-    "jszy",
-    "lzizy",
-    "mtzy",
-    "ok",
-    "p2100",
-    "subozy",
-    "tyyszy",
-    "validation-lziapi",
-    "zuida"
+    "p2100"
   ]
 }
