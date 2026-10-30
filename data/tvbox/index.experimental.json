@@ -22,7 +22,7 @@
       "api": "https://api.niuniuzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -265,11 +265,12 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "experimental-41089104407",
-  "generated_at": "2026-10-30T16:23:18+00:00",
+  "version": "experimental-41089245657",
+  "generated_at": "2026-10-30T16:25:15+00:00",
   "generated_by": "tvbox-harvest",
   "_carried_over": [
     "9",
+    "api-niuniuzy-me",
     "dbzy",
     "ffzy",
     "guangsu",
