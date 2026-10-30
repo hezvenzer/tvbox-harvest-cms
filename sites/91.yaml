@@ -29,7 +29,40 @@ tvbox: {}
 detect:
   version: 1
   stale: false
-  evidence: {}
+  evidence:
+    stages:
+      - stage: preflight
+        go_default_404: false
+      - stage: tier1_no_match
+        tried:
+          - path: /api.php/provide/vod/
+            error: 'circuit open for 91: 6 consecutive failures'
+          - path: /api.php/provide/vod/at/json/
+            error: 'circuit open for 91: 6 consecutive failures'
+          - path: /api.php/provide/vod
+            error: 'circuit open for 91: 6 consecutive failures'
+          - path: /api/provide/vod/
+            error: 'circuit open for 91: 6 consecutive failures'
+      - stage: tier2_no_match
+        candidates_tried: 0
+      - stage: homepage_not_html
+        note: skipping HTML-oriented stages
+      - stage: tier4_skipped
+        reason: no detail url sample
+      - stage: indeterminate
+    notes:
+      - 'homepage fetch failed: <StreamReset stream_id:5, error_code:1, remote_reset:True>'
+      - homepage is not an HTML document; Tier 3/4 heuristics not applicable
+    facts:
+      server: ''
+      html_bytes: 0
+      is_html: false
+      maccms_markers: []
+      detail_link_clusters: []
+  checked_at: '2026-10-30T09:53:47+00:00'
+  result: auto
+  tier: 0
+  status: unknown
 fields: {}
 selectors: {}
 browser: {}

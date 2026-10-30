@@ -317,4 +317,9 @@ sites:
     type: issue
     issue: 3
     at: '2026-10-30T09:52:12+00:00'
-  last_run: {}
+  last_run:
+    at: '2026-10-30T09:53:48+00:00'
+    status: failed
+    vods: 0
+    lines: 0
+    filtered: 0
