@@ -29,7 +29,61 @@ tvbox: {}
 detect:
   version: 1
   stale: false
-  evidence: {}
+  evidence:
+    stages:
+      - stage: preflight
+        status: 200
+        server: cloudflare
+        robots_status: 200
+        go_default_404: false
+      - stage: tier1_no_match
+        tried:
+          - path: /api.php/provide/vod/
+            status: 404
+            json: false
+          - path: /api.php/provide/vod/at/json/
+            status: 404
+            json: false
+          - path: /api.php/provide/vod
+            status: 404
+            json: false
+          - path: /api/provide/vod/
+            status: 404
+            json: false
+      - stage: tier2_no_match
+        candidates_tried: 1
+      - stage: no_dominant_detail_cluster
+        clusters: 17
+      - stage: tier4_skipped
+        reason: no detail url sample
+      - stage: indeterminate
+    notes: []
+    facts:
+      server: cloudflare
+      html_bytes: 67201
+      is_html: true
+      maccms_markers: []
+      detail_link_clusters:
+        - pattern: /go/yuncping
+          count: 4
+        - pattern: /docker
+          count: 3
+        - pattern: /sourceforge
+          count: 3
+        - pattern: /opensheet
+          count: 3
+        - pattern: /analytics
+          count: 3
+        - pattern: /docs
+          count: 3
+        - pattern: /blog
+          count: 3
+        - pattern: /link
+          count: 3
+  checked_at: '2026-10-30T13:31:43+00:00'
+  result: auto
+  tier: 0
+  status: unknown
 fields: {}
 selectors: {}
 browser: {}
