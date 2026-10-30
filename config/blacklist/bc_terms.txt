@@ -10,7 +10,20 @@
 # One term per line. '#' comments. CJK terms use substring matching, ASCII uses
 # word-boundary matching.
 
+#博彩（BC / 博彩）关键词列表。
+#用于两个方面：
+#1. 站点级检测：统计网站页面上的博彩广告信号
+#（iframe、外链、注入的重定向脚本、浮动广告层）。
+#2. 条目级检测：识别名称/备注/分类属于博彩产品而非视频标题的内容，
+#以及识别“由博彩运营方提供的内容源”（仅提供博彩相关材料的主机）。
+#每行一个词条。'#' 为注释。CJK 词条使用子串匹配，ASCII 词条使用
+#词边界匹配。
+
+
+
+
 # --- Betting / casino verticals ---
+#--- 投注 / 赌场垂直领域 ---
 真人娱乐
 真人荷官
 百家乐
