@@ -151,6 +151,21 @@
       }
     },
     {
+      "key": "ok",
+      "name": "OK资源",
+      "type": 1,
+      "api": "https://api.okzyw.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.4
+      }
+    },
+    {
       "key": "p2100",
       "name": "飘零资源",
       "type": 1,
@@ -265,8 +280,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "gateway-41089245657",
-  "generated_at": "2026-10-30T16:25:15+00:00",
+  "version": "gateway-41089792657",
+  "generated_at": "2026-10-30T16:28:10+00:00",
   "generated_by": "tvbox-harvest",
   "_carried_over": [
     "9",
