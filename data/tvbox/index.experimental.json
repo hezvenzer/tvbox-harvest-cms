@@ -235,11 +235,23 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "experimental-41028014672",
-  "generated_at": "2026-10-30T08:47:09+00:00",
+  "version": "experimental-41031133013",
+  "generated_at": "2026-10-30T09:09:02+00:00",
   "generated_by": "tvbox-harvest",
-  "gateway": "https://tvbox.myeven.ccwu.cc",
   "_carried_over": [
-    "p2100"
+    "dbzy",
+    "ffzy",
+    "guangsu",
+    "jinyingzy",
+    "jszy",
+    "lxyy-4k60",
+    "lzizy",
+    "mtzy",
+    "p2100",
+    "subozy",
+    "tyyszy",
+    "validation-lziapi",
+    "zhuiying",
+    "zuida"
   ]
 }

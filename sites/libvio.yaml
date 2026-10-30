@@ -29,7 +29,67 @@ tvbox: {}
 detect:
   version: 1
   stale: false
-  evidence: {}
+  evidence:
+    stages:
+      - stage: preflight
+        status: 200
+        server: cloudflare
+        robots_status: 200
+        go_default_404: false
+      - stage: tier1_no_match
+        tried:
+          - path: /api.php/provide/vod/
+            status: 404
+            json: false
+          - path: /api.php/provide/vod/at/json/
+            status: 404
+            json: false
+          - path: /api.php/provide/vod
+            status: 404
+            json: false
+          - path: /api/provide/vod/
+            status: 404
+            json: false
+      - stage: tier2_no_match
+        candidates_tried: 0
+      - stage: tier3_probe
+        sample: https://www.libvio.cam/detail/5813856.html
+        static_m3u8: 0
+        extracted_episodes: 0
+        player_marker_count: 0
+      - stage: tier4_error
+        error: "Error: BrowserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell\n\
+          ╔═════════════════════════════"
+      - stage: indeterminate
+    notes: []
+    facts:
+      server: cloudflare
+      html_bytes: 69133
+      is_html: true
+      maccms_markers:
+        - maccms
+      detail_link_clusters:
+        - pattern: /detail/{slug}.html
+          count: 144
+        - pattern: /show/{slug}.html
+          count: 30
+        - pattern: /type/{slug}.html
+          count: 25
+        - pattern: /jump.php
+          count: 5
+        - pattern: /{slug}.html
+          count: 3
+        - pattern: /search/{slug}.html
+          count: 1
+        - pattern: /cdn-cgi/l/email-protection
+          count: 1
+      detail_html_bytes: 22613
+      detail_sample_url: https://www.libvio.cam/detail/5813856.html
+      detail_cluster: /detail/{slug}.html
+  checked_at: '2026-10-30T09:08:41+00:00'
+  result: auto
+  tier: 0
+  status: unknown
 fields: {}
 selectors: {}
 browser: {}
