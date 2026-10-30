@@ -349,4 +349,9 @@ sites:
     type: issue
     issue: 5
     at: '2026-10-30T12:37:15+00:00'
-  last_run: {}
+  last_run:
+    at: '2026-10-30T12:38:00+00:00'
+    status: failed
+    vods: 0
+    lines: 0
+    filtered: 0
