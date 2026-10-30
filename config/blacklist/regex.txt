@@ -2,7 +2,7 @@
 # Use sparingly: regex over-matching silently removes legitimate titles.
 
 #用于成人内容的正则黑名单，应用于 vod_name / vod_remarks / content.
-#谨慎使用：正则过度匹配会在不报错的情况下误删正常标题。
+#谨慎使用：正则过度匹配会在不报错的情况下误删正常标题。规则如下(只是想在测试或合法配置中临时停用这条正则黑名单，注释掉的方法很简单：在每一行前面加#):
 
 
 
