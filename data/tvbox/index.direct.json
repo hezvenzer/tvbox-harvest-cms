@@ -1,6 +1,21 @@
 {
   "sites": [
     {
+      "key": "9",
+      "name": "🔞奥斯卡资源站9",
+      "type": 1,
+      "api": "https://aosikazy9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.4
+      }
+    },
+    {
       "key": "dbzy",
       "name": "豆瓣资源",
       "type": 1,
@@ -205,8 +220,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-41088277097",
-  "generated_at": "2026-10-30T16:17:23+00:00",
+  "version": "direct-41088666173",
+  "generated_at": "2026-10-30T16:20:22+00:00",
   "generated_by": "tvbox-harvest",
   "_carried_over": [
     "dbzy",
