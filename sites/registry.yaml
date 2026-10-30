@@ -307,3 +307,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: '91'
+  name: '91'
+  base_url: https://cn8.91short.com
+  adapter: auto
+  tier: 0
+  enabled: true
+  origin:
+    type: issue
+    issue: 3
+    at: '2026-10-30T09:52:12+00:00'
+  last_run: {}
