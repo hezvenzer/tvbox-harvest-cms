@@ -324,17 +324,17 @@ sites:
     lines: 0
     filtered: 0
 - key: cycani
-  name: cycani
+  name: 次元城
   base_url: https://www.cycani.org
-  adapter: auto
-  tier: 0
+  adapter: json_custom
+  tier: 2
   enabled: true
   origin:
     type: issue
     issue: 4
     at: '2026-10-30T11:19:22+00:00'
   last_run:
-    at: '2026-10-30T11:20:13+00:00'
+    at: '2026-10-30T11:49:39+00:00'
     status: failed
     vods: 0
     lines: 0
