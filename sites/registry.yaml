@@ -403,3 +403,14 @@ sites:
     vods: 245
     lines: 245
     filtered: 55
+- key: api-niuniuzy-me
+  name: 牛牛资源
+  base_url: https://api.niuniuzy.me
+  adapter: maccms_v10
+  tier: 1
+  enabled: true
+  origin:
+    type: issue
+    issue: 9
+    at: '2026-10-30T16:21:33+00:00'
+  last_run: {}
