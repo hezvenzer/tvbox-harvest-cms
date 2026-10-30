@@ -339,3 +339,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: myani
+  name: myani
+  base_url: https://myani.ccbccb.workers.dev
+  adapter: maccms_v10
+  tier: 1
+  enabled: true
+  origin:
+    type: issue
+    issue: 5
+    at: '2026-10-30T12:37:15+00:00'
+  last_run: {}
