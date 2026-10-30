@@ -2,7 +2,7 @@
 key: cycani
 name: 次元城
 base_url: https://www.cycani.org
-adapter: custom_json
+adapter: json_custom
 enabled: false
 
 compliance:
