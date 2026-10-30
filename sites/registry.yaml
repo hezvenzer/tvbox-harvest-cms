@@ -435,3 +435,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: ok
+  name: OK资源
+  base_url: https://api.okzyw.net
+  adapter: maccms_v10
+  tier: 1
+  enabled: true
+  origin:
+    type: issue
+    issue: 11
+    at: '2026-10-30T16:26:33+00:00'
+  last_run: {}
