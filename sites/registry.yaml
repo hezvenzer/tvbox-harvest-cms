@@ -461,4 +461,9 @@ sites:
     type: issue
     issue: 12
     at: '2026-10-30T16:27:23+00:00'
-  last_run: {}
+  last_run:
+    at: '2026-10-30T16:30:20+00:00'
+    status: ok
+    vods: 292
+    lines: 292
+    filtered: 8
