@@ -210,9 +210,17 @@ https://gcore.jsdelivr.net/gh/hezvenzer/tvbox-harvest-cms@main/data/tvbox/index.
 
 ---
 ### 3. 网关转写成的 MacCMSv10 订阅地址
-订阅地址组成结构：https://<子域名>.workers.dev/vod/<key>
-<子域名>.workers.dev为cloudflare平台分配的域名，<key>为各个线路在
-备注：此订阅地址未在cloudflare平台绑定私人域名
+> 订阅地址组成结构：https://<子域名>.workers.dev/vod/<key>
+> <子域名>.workers.dev为cloudflare平台分配的域名，<key>为各个线路在sites目录下的sites/<key>.yaml文件名称前缀<key>及内部的接口变量key的值。
+> 等同于data/tvbox/index.direct.json内部的接口变量key的值。
+> 等同于data/tvbox/sites/<key>.json的文件名称前缀<key>和文件内部的接口变量key的值。
+> 等同于data/snapshot/<key>/*.json ，即data/snapshot目录下接口名称<key>目录下的三个.json文件内部的接口变量site_key的值，例如 【{"site_key": "aosikazy9", "kind": "detail",】的值为aosikazy9
+> 
+> 备注1：此订阅地址未在cloudflare平台绑定私人域名。
+> 备注2：如果要修改订阅内容、名称，请修改本节以上提到的所有和接口相关的路径、文件、文件内容，否则报错不生效。
+> 备注3：config/lacklist目录下的.txt文件为黑名单，默认去除成人内容，有需要请自行修改。
+> 备注4：可以在cloudflare平台直接绑定私人域名，但是可能会由于bot自动同步worker配置、内容、变量到cloudflare平台导致不生效、覆盖掉。建议修改gateway/wrangler.toml文件内域名为自定义域名，防止覆盖。
+
 
 总览快照地址（此处未在cloudflare平台绑定私人域名）：
 ```
