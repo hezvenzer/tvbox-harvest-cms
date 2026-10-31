@@ -22,7 +22,7 @@
       "api": "https://api.wsyzy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -280,11 +280,12 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-41205176660",
-  "generated_at": "2026-10-31T13:23:31+00:00",
+  "version": "direct-41205362993",
+  "generated_at": "2026-10-31T13:25:33+00:00",
   "generated_by": "tvbox-harvest",
   "_carried_over": [
     "aosikazy9",
+    "api-wsyzy-net",
     "dbzy",
     "ffzy",
     "guangsu",
