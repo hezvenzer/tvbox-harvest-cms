@@ -229,6 +229,8 @@ https://gcore.jsdelivr.net/gh/hezvenzer/tvbox-harvest-cms@main/data/tvbox/index.
 > 备注3：config/lacklist目录下的.txt文件为黑名单，默认去除成人内容，有需要请自行修改。
 > 
 > 备注4：可以在cloudflare平台直接绑定私人域名，但是可能会由于bot自动同步worker配置、内容、变量到cloudflare平台导致不生效、覆盖掉。建议修改gateway/wrangler.toml文件内域名为自定义域名，防止覆盖。
+>
+> 备注5：如果重新尝试issue提交订阅地址，请删除sites目录下与接口相关的路径、文件、文件内容，如sites/registry.yaml文件内的相关配置内容和对应名称的*.yaml文件，否则报错不生效。
 
 
 总览快照地址（此处未在cloudflare平台绑定私人域名）：
