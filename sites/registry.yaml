@@ -510,3 +510,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: y-ds05-cn
+  name: 独
+  base_url: http://y.ds05.cn
+  adapter: json_custom
+  tier: 2
+  enabled: true
+  origin:
+    type: issue
+    issue: 19
+    at: '2026-10-31T14:25:03+00:00'
+  last_run: {}
