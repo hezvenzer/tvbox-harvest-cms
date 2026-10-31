@@ -209,6 +209,25 @@ https://gcore.jsdelivr.net/gh/hezvenzer/tvbox-harvest-cms@main/data/tvbox/index.
 单站订阅：`data/tvbox/sites/<key>.json`。
 
 ---
+### 3. 网关转写成的 MacCMSv10 订阅地址
+订阅地址组成结构：https://<子域名>.workers.dev/vod/<key>
+<子域名>.workers.dev为cloudflare平台分配的域名，<key>为各个线路在
+备注：此订阅地址未在cloudflare平台绑定私人域名
+
+总览快照地址（此处未在cloudflare平台绑定私人域名）：
+```
+https://tvbox-harvest-cms.ccbccb.workers.dev
+```
+
+各线路、采集站订阅地址如下（此处未在cloudflare平台绑定私人域名）：
+```
+https://tvbox-harvest-cms.ccbccb.workers.dev/vod/lxyy-4k60
+https://tvbox-harvest-cms.ccbccb.workers.dev/vod/aosikazy9
+https://tvbox-harvest-cms.ccbccb.workers.dev/vod/niuniuzy
+https://tvbox-harvest-cms.ccbccb.workers.dev/vod/ok
+https://tvbox-harvest-cms.ccbccb.workers.dev/vod/kuaichezy
+https://tvbox-harvest-cms.ccbccb.workers.dev/vod/zhuiying
+```
 
 ## 本地运行
 
