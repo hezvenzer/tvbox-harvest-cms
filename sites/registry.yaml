@@ -500,3 +500,14 @@ sites:
     issue: 15
     at: '2026-10-31T13:22:24+00:00'
   last_run: {}
+- key: api-apibdzy-com
+  name: 百度云资源
+  base_url: https://api.apibdzy.com
+  adapter: maccms_v10
+  tier: 1
+  enabled: true
+  origin:
+    type: issue
+    issue: 16
+    at: '2026-10-31T13:24:00+00:00'
+  last_run: {}
