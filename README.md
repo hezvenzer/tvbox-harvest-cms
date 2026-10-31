@@ -210,9 +210,8 @@ https://gcore.jsdelivr.net/gh/hezvenzer/tvbox-harvest-cms@main/data/tvbox/index.
 
 ---
 ### 3. 网关转写成的 MacCMSv10 订阅地址
-> 订阅地址组成结构：https://<子域名>.workers.dev/vod/<key>
-> 
-> <子域名>.workers.dev为cloudflare平台分配的域名，<key>为各个线路在sites目录下的sites/<key>.yaml文件名称前缀<key>及内部的接口变量key的值。
+> 订阅地址组成结构：https://<子域名>.workers.dev/vod/<key><子域名>.workers.dev为cloudflare平台分配的域名，
+> <key>为各个线路在sites目录下的sites/<key>.yaml文件名称前缀<key>及内部的接口变量key的值。
 
 > 等同于data/tvbox/index.direct.json内部的接口变量key的值。
 > 
