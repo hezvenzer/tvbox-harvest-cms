@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "key": "api-wsyzy-net",
+      "name": "无水印资源",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.4
+      }
+    }
+  ],
+  "lives": [],
+  "parses": [],
+  "flags": [],
+  "rules": [],
+  "spider": "",
+  "author": "tvbox-harvest",
+  "wallpaper": "",
+  "ua": "",
+  "requestHeader": {},
+  "version": "site-41205176660",
+  "generated_at": "2026-10-31T13:23:31+00:00",
+  "generated_by": "tvbox-harvest"
+}
