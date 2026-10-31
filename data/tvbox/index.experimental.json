@@ -7,7 +7,7 @@
       "api": "https://aosikazy9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -22,7 +22,22 @@
       "api": "https://api.wsyzy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.4
+      }
+    },
+    {
+      "key": "cj-yayazy-net",
+      "name": "鸭鸭资源站",
+      "type": 1,
+      "api": "https://cj.yayazy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -112,7 +127,7 @@
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -172,7 +187,7 @@
       "api": "https://api.niuniuzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -187,7 +202,7 @@
       "api": "https://api.okzyw.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -310,28 +325,12 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "experimental-41210007781",
-  "generated_at": "2026-10-31T14:26:16+00:00",
+  "version": "experimental-41244228312",
+  "generated_at": "2026-10-31T21:39:28+00:00",
   "generated_by": "tvbox-harvest",
+  "gateway": "https://tvbox.myeven.ccwu.cc",
   "_carried_over": [
-    "aosikazy9",
-    "api-wsyzy-net",
-    "dbzy",
-    "ffzy",
-    "guangsu",
-    "jinyingzy",
-    "jszy",
-    "kuaichezy",
-    "lxyy-4k60",
-    "lzizy",
-    "mtzy",
-    "niuniuzy",
-    "ok",
     "p2100",
-    "subozy",
-    "tyyszy",
-    "validation-lziapi",
-    "zhuiying",
-    "zuida"
+    "zhuiying"
   ]
 }

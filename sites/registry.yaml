@@ -28,11 +28,11 @@ sites:
     type: manual
     note: 洛雪TV 的 source=mj（4k60帧）单源；目录只能按关键词取，实测片源为 1080p
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
-    status: failed
-    vods: 0
-    lines: 0
-    filtered: 0
+    at: '2026-10-31T21:39:10+00:00'
+    status: degraded
+    vods: 6
+    lines: 6
+    filtered: 294
 - key: pianku
   name: 片库
   base_url: https://4k01.pianku.online
@@ -90,11 +90,11 @@ sites:
     issue: 2
     at: '2026-10-17T02:11:28+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 199
-    lines: 398
-    filtered: 5551
+    vods: 198
+    lines: 396
+    filtered: 7639
 - key: tyyszy
   name: 天涯影视
   base_url: https://tyyszyapi.com
@@ -105,11 +105,11 @@ sites:
     type: manual
     note: 公开 MacCMS V10 采集接口；total≈7.3 万，39 个常规分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 137
-    lines: 137
-    filtered: 0
+    vods: 134
+    lines: 134
+    filtered: 1
 - key: guangsu
   name: 光速资源
   base_url: https://api.guangsuapi.com
@@ -120,11 +120,11 @@ sites:
     type: manual
     note: 公开 MacCMS V10 采集接口；total≈11.6 万，44 个常规分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 233
-    lines: 466
-    filtered: 3
+    vods: 236
+    lines: 472
+    filtered: 6
 - key: ffzy
   name: 非凡影视
   base_url: https://ffzy5.tv
@@ -135,11 +135,11 @@ sites:
     type: manual
     note: LibreTV 老版默认源；total≈9.9 万；含伦理片分类（直连不过滤）
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 91
-    lines: 182
-    filtered: 1
+    vods: 100
+    lines: 200
+    filtered: 3
 - key: zy360
   name: 360资源
   base_url: https://360zy.com
@@ -165,11 +165,11 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈15万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 199
-    lines: 398
-    filtered: 5551
+    vods: 198
+    lines: 396
+    filtered: 7639
 - key: mtzy
   name: 茅台资源
   base_url: https://mtzy.me
@@ -180,10 +180,10 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈15万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 202
-    lines: 404
+    vods: 177
+    lines: 354
     filtered: 55
 - key: dbzy
   name: 豆瓣资源
@@ -195,7 +195,7 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈14万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
     vods: 20
     lines: 40
@@ -210,10 +210,10 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈12万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 127
-    lines: 127
+    vods: 150
+    lines: 150
     filtered: 1
 - key: jinyingzy
   name: 金鹰资源
@@ -225,11 +225,11 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈11万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 233
-    lines: 466
-    filtered: 3
+    vods: 236
+    lines: 472
+    filtered: 6
 - key: subozy
   name: 速播资源
   base_url: https://www.subozy.com
@@ -240,11 +240,11 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈11万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 233
-    lines: 466
-    filtered: 3
+    vods: 236
+    lines: 472
+    filtered: 6
 - key: jszy
   name: 极速资源
   base_url: https://jszyapi.com
@@ -255,11 +255,11 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈11万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 235
-    lines: 470
-    filtered: 3
+    vods: 236
+    lines: 472
+    filtered: 6
 - key: p2100
   name: 飘零资源
   base_url: https://p2100.net
@@ -270,7 +270,7 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈10万；抽样无成人分类
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -334,7 +334,7 @@ sites:
     issue: 4
     at: '2026-10-30T11:19:22+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -350,7 +350,7 @@ sites:
     issue: 5
     at: '2026-10-30T12:37:15+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -382,7 +382,7 @@ sites:
     issue: 7
     at: '2026-10-30T16:16:12+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -398,7 +398,7 @@ sites:
     issue: 8
     at: '2026-10-30T16:18:44+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
     vods: 82
     lines: 82
@@ -414,10 +414,10 @@ sites:
     issue: 9
     at: '2026-10-30T16:21:33+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 144
-    lines: 144
+    vods: 150
+    lines: 150
     filtered: 1
 - key: ddmf-net
   name: 爱蛋资源
@@ -430,7 +430,7 @@ sites:
     issue: 10
     at: '2026-10-30T16:22:35+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -446,11 +446,11 @@ sites:
     issue: 11
     at: '2026-10-30T16:26:33+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 127
-    lines: 127
-    filtered: 1
+    vods: 149
+    lines: 149
+    filtered: 2
 - key: kuaichezy
   name: 快车资源
   base_url: https://caiji.kuaichezy.org
@@ -462,10 +462,10 @@ sites:
     issue: 12
     at: '2026-10-30T16:27:23+00:00'
   last_run:
-    at: '2026-10-31T12:34:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 127
-    lines: 127
+    vods: 150
+    lines: 150
     filtered: 1
 - key: api-wsyzy-net
   name: 无水印资源
@@ -478,11 +478,11 @@ sites:
     issue: 14
     at: '2026-10-31T13:21:30+00:00'
   last_run:
-    at: '2026-10-31T13:23:09+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: ok
-    vods: 293
-    lines: 293
-    filtered: 7
+    vods: 134
+    lines: 134
+    filtered: 2
 - key: cj-yayazy-net
   name: 鸭鸭资源站
   base_url: https://cj.yayazy.net
@@ -493,7 +493,12 @@ sites:
     type: issue
     issue: 15
     at: '2026-10-31T13:22:24+00:00'
-  last_run: {}
+  last_run:
+    at: '2026-10-31T21:39:10+00:00'
+    status: ok
+    vods: 150
+    lines: 150
+    filtered: 1
 - key: api-apibdzy-com
   name: 百度云资源
   base_url: https://api.apibdzy.com
@@ -505,7 +510,7 @@ sites:
     issue: 16
     at: '2026-10-31T13:24:00+00:00'
   last_run:
-    at: '2026-10-31T13:25:11+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -521,7 +526,7 @@ sites:
     issue: 19
     at: '2026-10-31T14:25:03+00:00'
   last_run:
-    at: '2026-10-31T14:25:56+00:00'
+    at: '2026-10-31T21:39:10+00:00'
     status: failed
     vods: 0
     lines: 0
