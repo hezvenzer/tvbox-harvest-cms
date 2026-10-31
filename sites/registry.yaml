@@ -467,17 +467,6 @@ sites:
     vods: 127
     lines: 127
     filtered: 1
-- key: y-ds05-cn
-  name: 独思资源
-  base_url: http://y.ds05.cn
-  adapter: auto
-  tier: 0
-  enabled: true
-  origin:
-    type: issue
-    issue: 13
-    at: '2026-10-31T13:19:36+00:00'
-  last_run: {}
 - key: api-wsyzy-net
   name: 无水印资源
   base_url: https://api.wsyzy.net
