@@ -171,7 +171,11 @@ budget:
 ### 2. 在 TVBox 里订阅
 
 ```
-https://cdn.jsdelivr.net/gh/<你的用户名>/tvbox-harvest@main/data/tvbox/index.json
+https://cdn.jsdelivr.net/gh/<你的用户名>/<项目名称>@main/data/tvbox/index.json
+```
+### 本人的 TVBox 订阅源地址为：
+```
+https://cdn.jsdelivr.net/gh/hezvenzer/tvbox-harvest-cms@main/data/tvbox/index.json
 ```
 
 大陆网络下 `cdn.jsdelivr.net` 可能连不上（实测：直连三次全部失败，TCP 超时；同一台机器上
@@ -179,8 +183,13 @@ https://cdn.jsdelivr.net/gh/<你的用户名>/tvbox-harvest@main/data/tvbox/inde
 换边缘域名即可：
 
 ```
-https://fastly.jsdelivr.net/gh/<你的用户名>/tvbox-harvest@main/data/tvbox/index.json
-https://gcore.jsdelivr.net/gh/<你的用户名>/tvbox-harvest@main/data/tvbox/index.json
+https://fastly.jsdelivr.net/gh/<你的用户名>/<项目名称>@main/data/tvbox/index.json
+https://gcore.jsdelivr.net/gh/<你的用户名>/<项目名称>@main/data/tvbox/index.json
+```
+### 本人的 TVBox 订阅源地址为：
+```
+https://fastly.jsdelivr.net/gh/hezvenzer/tvbox-harvest-cms@main/data/tvbox/index.json
+https://gcore.jsdelivr.net/gh/hezvenzer/tvbox-harvest-cms@main/data/tvbox/index.json
 ```
 
 这是同一个 jsDelivr，只是走不同 CDN 边缘。**订阅地址得在播放设备上能打开才算数**，所以先在这台
