@@ -265,19 +265,9 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-41189785551",
-  "generated_at": "2026-10-31T09:51:03+00:00",
+  "version": "direct-41201342347",
+  "generated_at": "2026-10-31T12:34:49+00:00",
   "generated_by": "tvbox-harvest",
-  "_skipped": [
-    {
-      "key": "lxyy-4k60",
-      "reason": "no_api"
-    },
-    {
-      "key": "zhuiying",
-      "reason": "tier4_needs_bridge"
-    }
-  ],
   "_carried_over": [
     "p2100"
   ]
