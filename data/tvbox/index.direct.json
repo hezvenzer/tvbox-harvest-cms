@@ -7,7 +7,7 @@
       "api": "https://aosikazy9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -97,7 +97,7 @@
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -142,7 +142,7 @@
       "api": "https://api.niuniuzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -157,7 +157,7 @@
       "api": "https://api.okzyw.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -265,25 +265,20 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-41182631653",
-  "generated_at": "2026-10-31T07:58:49+00:00",
+  "version": "direct-41189785551",
+  "generated_at": "2026-10-31T09:51:03+00:00",
   "generated_by": "tvbox-harvest",
+  "_skipped": [
+    {
+      "key": "lxyy-4k60",
+      "reason": "no_api"
+    },
+    {
+      "key": "zhuiying",
+      "reason": "tier4_needs_bridge"
+    }
+  ],
   "_carried_over": [
-    "aosikazy9",
-    "dbzy",
-    "ffzy",
-    "guangsu",
-    "jinyingzy",
-    "jszy",
-    "kuaichezy",
-    "lzizy",
-    "mtzy",
-    "niuniuzy",
-    "ok",
-    "p2100",
-    "subozy",
-    "tyyszy",
-    "validation-lziapi",
-    "zuida"
+    "p2100"
   ]
 }

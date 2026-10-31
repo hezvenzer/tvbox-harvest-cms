@@ -60,7 +60,7 @@ detect:
     notes: []
     facts:
       server: cloudflare
-      html_bytes: 67201
+      html_bytes: 68562
       is_html: true
       maccms_markers: []
       detail_link_clusters:
@@ -80,7 +80,7 @@ detect:
           count: 3
         - pattern: /link
           count: 3
-  checked_at: '2026-10-30T13:31:43+00:00'
+  checked_at: '2026-10-31T09:49:06+00:00'
   result: auto
   tier: 0
   status: unknown
