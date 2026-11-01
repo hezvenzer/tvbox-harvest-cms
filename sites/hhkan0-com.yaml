@@ -29,7 +29,45 @@ tvbox: {}
 detect:
   version: 1
   stale: false
-  evidence: {}
+  evidence:
+    stages:
+      - stage: preflight
+        status: 850
+        server: 'nginx '
+        robots_status: 850
+        go_default_404: false
+      - stage: tier1_no_match
+        tried:
+          - path: /api.php/provide/vod/
+            status: 850
+            json: false
+          - path: /api.php/provide/vod/at/json/
+            status: 850
+            json: false
+          - path: /api.php/provide/vod
+            status: 850
+            json: false
+          - path: /api/provide/vod/
+            status: 850
+            json: false
+      - stage: tier2_no_match
+        candidates_tried: 0
+      - stage: no_dominant_detail_cluster
+        clusters: 0
+      - stage: tier4_skipped
+        reason: no detail url sample
+      - stage: indeterminate
+    notes: []
+    facts:
+      server: 'nginx '
+      html_bytes: 6499
+      is_html: true
+      maccms_markers: []
+      detail_link_clusters: []
+  checked_at: '2026-11-01T13:37:46+00:00'
+  result: auto
+  tier: 0
+  status: unknown
 fields: {}
 selectors: {}
 browser: {}

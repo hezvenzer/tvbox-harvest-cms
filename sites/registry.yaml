@@ -541,4 +541,9 @@ sites:
     type: issue
     issue: 20
     at: '2026-11-01T13:36:05+00:00'
-  last_run: {}
+  last_run:
+    at: '2026-11-01T13:37:47+00:00'
+    status: failed
+    vods: 0
+    lines: 0
+    filtered: 0
