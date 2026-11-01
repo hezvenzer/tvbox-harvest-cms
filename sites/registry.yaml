@@ -531,3 +531,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: hhkan0-com
+  name: 好好看
+  base_url: https://www.hhkan0.com
+  adapter: auto
+  tier: 0
+  enabled: true
+  origin:
+    type: issue
+    issue: 20
+    at: '2026-11-01T13:36:05+00:00'
+  last_run: {}
