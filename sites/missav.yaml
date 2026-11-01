@@ -53,7 +53,7 @@ detect:
       - stage: tier2_no_match
         candidates_tried: 5
       - stage: tier3_probe
-        sample: https://missav.ws/en/dldss-567
+        sample: https://missav.ws/en/mbrbi-015
         static_m3u8: 0
         extracted_episodes: 0
         player_marker_count: 2
@@ -68,14 +68,14 @@ detect:
       - player container present but zero static media URLs -> runtime-only
     facts:
       server: cloudflare
-      html_bytes: 334926
+      html_bytes: 334736
       is_html: true
       maccms_markers: []
       detail_link_clusters:
         - pattern: /en/{id}
-          count: 119
+          count: 136
         - pattern: /{id}/en/{id}
-          count: 56
+          count: 39
         - pattern: /{id}
           count: 31
         - pattern: /localizedUrl(
@@ -86,12 +86,12 @@ detect:
           count: 4
         - pattern: '/item.dvd_id '
           count: 4
-        - pattern: /en/vip
-          count: 3
-      detail_html_bytes: 205983
-      detail_sample_url: https://missav.ws/en/dldss-567
+        - pattern: /dm2/en/{id}
+          count: 4
+      detail_html_bytes: 209834
+      detail_sample_url: https://missav.ws/en/mbrbi-015
       detail_cluster: /en/{id}
-  checked_at: '2026-10-31T09:48:26+00:00'
+  checked_at: '2026-11-01T10:37:55+00:00'
   result: auto
   tier: 0
   status: unknown

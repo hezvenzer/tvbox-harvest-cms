@@ -53,14 +53,14 @@ detect:
       - stage: tier2_no_match
         candidates_tried: 1
       - stage: no_dominant_detail_cluster
-        clusters: 17
+        clusters: 18
       - stage: tier4_skipped
         reason: no detail url sample
       - stage: indeterminate
     notes: []
     facts:
       server: cloudflare
-      html_bytes: 68562
+      html_bytes: 69654
       is_html: true
       maccms_markers: []
       detail_link_clusters:
@@ -80,7 +80,7 @@ detect:
           count: 3
         - pattern: /link
           count: 3
-  checked_at: '2026-10-31T09:49:06+00:00'
+  checked_at: '2026-11-01T10:38:23+00:00'
   result: auto
   tier: 0
   status: unknown
