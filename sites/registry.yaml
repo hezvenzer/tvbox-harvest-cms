@@ -547,3 +547,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: uu
+  name: uu资源
+  base_url: https://uuzy.me
+  adapter: json_custom
+  tier: 2
+  enabled: true
+  origin:
+    type: issue
+    issue: 21
+    at: '2026-11-03T09:44:45+00:00'
+  last_run: {}
