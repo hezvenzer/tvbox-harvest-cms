@@ -611,3 +611,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: xsd-sdzyapi-com
+  name: 闪电资源
+  base_url: https://xsd.sdzyapi.com
+  adapter: maccms_v10
+  tier: 1
+  enabled: true
+  origin:
+    type: issue
+    issue: 26
+    at: '2026-11-03T10:29:22+00:00'
+  last_run: {}
