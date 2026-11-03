@@ -611,19 +611,3 @@ sites:
     vods: 291
     lines: 291
     filtered: 9
-- key: xxavs-com
-  name: 乐园
-  base_url: https://xxavs.com
-  adapter: maccms_v10
-  tier: 1
-  enabled: true
-  origin:
-    type: issue
-    issue: 27
-    at: '2026-11-03T10:47:38+00:00'
-  last_run:
-    at: '2026-11-03T11:26:44+00:00'
-    status: failed
-    vods: 0
-    lines: 0
-    filtered: 0
