@@ -307,7 +307,7 @@
       "api": "https://xsd.sdzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -370,8 +370,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "gateway-41619564486",
-  "generated_at": "2026-11-03T10:31:05+00:00",
+  "version": "gateway-41622169226",
+  "generated_at": "2026-11-03T10:48:53+00:00",
   "generated_by": "tvbox-harvest",
   "_carried_over": [
     "aosikazy9",
@@ -394,6 +394,7 @@
     "suoniapi-com",
     "tyyszy",
     "validation-lziapi",
+    "xsd-sdzyapi-com",
     "zhuiying",
     "zuida"
   ]
