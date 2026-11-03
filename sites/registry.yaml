@@ -589,4 +589,9 @@ sites:
     type: issue
     issue: 24
     at: '2026-11-03T10:16:55+00:00'
-  last_run: {}
+  last_run:
+    at: '2026-11-03T10:18:17+00:00'
+    status: ok
+    vods: 292
+    lines: 292
+    filtered: 8
