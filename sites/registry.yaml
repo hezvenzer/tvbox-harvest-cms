@@ -563,3 +563,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: hlzy-my
+  name: 红楼
+  base_url: https://www.hlzy.my
+  adapter: maccms_v10
+  tier: 1
+  enabled: true
+  origin:
+    type: issue
+    issue: 22
+    at: '2026-11-03T10:01:21+00:00'
+  last_run: {}
