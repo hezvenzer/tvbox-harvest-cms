@@ -53,7 +53,7 @@ detect:
       - stage: tier2_no_match
         candidates_tried: 0
       - stage: tier3_probe
-        sample: https://www.libvio.cam/detail/5813844.html
+        sample: https://www.libvio.cam/detail/5813917.html
         static_m3u8: 0
         extracted_episodes: 0
         player_marker_count: 0
@@ -64,7 +64,7 @@ detect:
     notes: []
     facts:
       server: cloudflare
-      html_bytes: 69972
+      html_bytes: 70028
       is_html: true
       maccms_markers:
         - maccms
@@ -83,10 +83,10 @@ detect:
           count: 1
         - pattern: /cdn-cgi/l/email-protection
           count: 1
-      detail_html_bytes: 23255
-      detail_sample_url: https://www.libvio.cam/detail/5813844.html
+      detail_html_bytes: 20865
+      detail_sample_url: https://www.libvio.cam/detail/5813917.html
       detail_cluster: /detail/{slug}.html
-  checked_at: '2026-11-02T11:23:10+00:00'
+  checked_at: '2026-11-03T11:02:08+00:00'
   result: auto
   tier: 0
   status: unknown
