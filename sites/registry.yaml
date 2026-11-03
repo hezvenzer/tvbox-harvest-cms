@@ -563,3 +563,14 @@ sites:
     vods: 263
     lines: 263
     filtered: 37
+- key: uu
+  name: uu资源
+  base_url: https://uuzy.me
+  adapter: maccms_v10
+  tier: 1
+  enabled: true
+  origin:
+    type: issue
+    issue: 23
+    at: '2026-11-03T10:10:10+00:00'
+  last_run: {}
