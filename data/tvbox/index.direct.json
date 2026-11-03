@@ -286,6 +286,21 @@
       }
     },
     {
+      "key": "xsd-sdzyapi-com",
+      "name": "闪电资源",
+      "type": 1,
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.4
+      }
+    },
+    {
       "key": "zuida",
       "name": "最大资源",
       "type": 1,
@@ -325,8 +340,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-41619243495",
-  "generated_at": "2026-11-03T10:27:49+00:00",
+  "version": "direct-41619564486",
+  "generated_at": "2026-11-03T10:31:05+00:00",
   "generated_by": "tvbox-harvest",
   "_carried_over": [
     "aosikazy9",
