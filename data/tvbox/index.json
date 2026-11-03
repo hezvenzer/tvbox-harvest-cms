@@ -97,7 +97,7 @@
       "api": "https://www.hlzy.my/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -310,8 +310,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-41615710693",
-  "generated_at": "2026-11-03T10:03:21+00:00",
+  "version": "direct-41616951090",
+  "generated_at": "2026-11-03T10:11:25+00:00",
   "generated_by": "tvbox-harvest",
   "_carried_over": [
     "aosikazy9",
@@ -320,6 +320,7 @@
     "dbzy",
     "ffzy",
     "guangsu",
+    "hlzy-my",
     "jinyingzy",
     "jszy",
     "kuaichezy",
