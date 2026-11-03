@@ -595,3 +595,14 @@ sites:
     vods: 292
     lines: 292
     filtered: 8
+- key: api-yparse-com
+  name: 步步高资源
+  base_url: https://api.yparse.com
+  adapter: json_custom
+  tier: 2
+  enabled: true
+  origin:
+    type: issue
+    issue: 25
+    at: '2026-11-03T10:26:32+00:00'
+  last_run: {}
