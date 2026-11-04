@@ -370,13 +370,12 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "experimental-41785073413",
-  "generated_at": "2026-11-04T06:28:32+00:00",
+  "version": "experimental-41817962813",
+  "generated_at": "2026-11-04T11:13:45+00:00",
   "generated_by": "tvbox-harvest",
   "gateway": "https://tvbox.myeven.ccwu.cc",
   "_carried_over": [
     "hlzy-my",
-    "p2100",
-    "zhuiying"
+    "p2100"
   ]
 }
