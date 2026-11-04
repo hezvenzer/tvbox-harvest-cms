@@ -28,7 +28,7 @@ sites:
     type: manual
     note: 洛雪TV 的 source=mj（4k60帧）单源；目录只能按关键词取，实测片源为 1080p
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
     vods: 271
     lines: 271
@@ -90,11 +90,11 @@ sites:
     issue: 2
     at: '2026-10-17T02:11:28+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 130
-    lines: 260
-    filtered: 14234
+    vods: 90
+    lines: 180
+    filtered: 13455
 - key: tyyszy
   name: 天涯影视
   base_url: https://tyyszyapi.com
@@ -105,11 +105,11 @@ sites:
     type: manual
     note: 公开 MacCMS V10 采集接口；total≈7.3 万，39 个常规分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 122
-    lines: 122
-    filtered: 2
+    vods: 108
+    lines: 108
+    filtered: 3
 - key: guangsu
   name: 光速资源
   base_url: https://api.guangsuapi.com
@@ -120,10 +120,10 @@ sites:
     type: manual
     note: 公开 MacCMS V10 采集接口；total≈11.6 万，44 个常规分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 210
-    lines: 420
+    vods: 177
+    lines: 354
     filtered: 1
 - key: ffzy
   name: 非凡影视
@@ -135,11 +135,11 @@ sites:
     type: manual
     note: LibreTV 老版默认源；total≈9.9 万；含伦理片分类（直连不过滤）
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 90
-    lines: 180
-    filtered: 9
+    vods: 100
+    lines: 200
+    filtered: 6
 - key: zy360
   name: 360资源
   base_url: https://360zy.com
@@ -165,11 +165,11 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈15万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 130
-    lines: 260
-    filtered: 14234
+    vods: 90
+    lines: 180
+    filtered: 13455
 - key: mtzy
   name: 茅台资源
   base_url: https://mtzy.me
@@ -180,11 +180,11 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈15万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 186
-    lines: 372
-    filtered: 1
+    vods: 179
+    lines: 358
+    filtered: 7
 - key: dbzy
   name: 豆瓣资源
   base_url: https://dbzy.tv
@@ -195,7 +195,7 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈14万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
     vods: 20
     lines: 40
@@ -210,11 +210,11 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈12万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 138
-    lines: 138
-    filtered: 41
+    vods: 137
+    lines: 137
+    filtered: 42
 - key: jinyingzy
   name: 金鹰资源
   base_url: https://jinyingzy.com
@@ -225,10 +225,10 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈11万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 210
-    lines: 420
+    vods: 174
+    lines: 348
     filtered: 1
 - key: subozy
   name: 速播资源
@@ -240,10 +240,10 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈11万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 210
-    lines: 420
+    vods: 174
+    lines: 348
     filtered: 1
 - key: jszy
   name: 极速资源
@@ -255,10 +255,10 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈11万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 210
-    lines: 420
+    vods: 180
+    lines: 360
     filtered: 1
 - key: p2100
   name: 飘零资源
@@ -270,7 +270,7 @@ sites:
     type: manual
     note: LibreTV 源清单筛出；total≈10万；抽样无成人分类
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -334,7 +334,7 @@ sites:
     issue: 4
     at: '2026-10-30T11:19:22+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -350,7 +350,7 @@ sites:
     issue: 5
     at: '2026-10-30T12:37:15+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -382,11 +382,11 @@ sites:
     issue: 8
     at: '2026-10-30T16:18:44+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 94
-    lines: 94
-    filtered: 11
+    vods: 69
+    lines: 69
+    filtered: 15
 - key: niuniuzy
   name: 牛牛资源
   base_url: https://api.niuniuzy.me
@@ -398,11 +398,11 @@ sites:
     issue: 9
     at: '2026-10-30T16:21:33+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 138
-    lines: 138
-    filtered: 41
+    vods: 137
+    lines: 137
+    filtered: 42
 - key: ddmf-net
   name: 爱蛋资源
   base_url: https://www.ddmf.net
@@ -414,7 +414,7 @@ sites:
     issue: 10
     at: '2026-10-30T16:22:35+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -430,11 +430,11 @@ sites:
     issue: 11
     at: '2026-10-30T16:26:33+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 138
-    lines: 138
-    filtered: 41
+    vods: 140
+    lines: 140
+    filtered: 42
 - key: kuaichezy
   name: 快车资源
   base_url: https://caiji.kuaichezy.org
@@ -446,11 +446,11 @@ sites:
     issue: 12
     at: '2026-10-30T16:27:23+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 138
-    lines: 138
-    filtered: 2
+    vods: 140
+    lines: 140
+    filtered: 3
 - key: api-wsyzy-net
   name: 无水印资源
   base_url: https://api.wsyzy.net
@@ -462,10 +462,10 @@ sites:
     issue: 14
     at: '2026-10-31T13:21:30+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 118
-    lines: 118
+    vods: 120
+    lines: 120
     filtered: 44
 - key: cj-yayazy-net
   name: 鸭鸭资源站
@@ -478,11 +478,11 @@ sites:
     issue: 15
     at: '2026-10-31T13:22:24+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 138
-    lines: 138
-    filtered: 41
+    vods: 140
+    lines: 140
+    filtered: 42
 - key: api-apibdzy-com
   name: 百度云资源
   base_url: https://api.apibdzy.com
@@ -494,7 +494,7 @@ sites:
     issue: 16
     at: '2026-10-31T13:24:00+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -510,7 +510,7 @@ sites:
     issue: 19
     at: '2026-10-31T14:25:03+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -542,11 +542,11 @@ sites:
     issue: 22
     at: '2026-11-03T10:01:21+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
-    filtered: 0
+    filtered: 256
 - key: uu
   name: uu资源
   base_url: https://uuzy.me
@@ -558,7 +558,7 @@ sites:
     issue: 23
     at: '2026-11-03T10:10:10+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -574,11 +574,11 @@ sites:
     issue: 24
     at: '2026-11-03T10:16:55+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 164
-    lines: 164
-    filtered: 45
+    vods: 167
+    lines: 167
+    filtered: 44
 - key: api-yparse-com
   name: 步步高资源
   base_url: https://api.yparse.com
@@ -590,7 +590,7 @@ sites:
     issue: 25
     at: '2026-11-03T10:26:32+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
@@ -606,11 +606,11 @@ sites:
     issue: 26
     at: '2026-11-03T10:29:22+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: ok
-    vods: 138
-    lines: 138
-    filtered: 41
+    vods: 140
+    lines: 140
+    filtered: 42
 - key: xxavs-com
   name: 乐园
   base_url: https://xxavs.com
@@ -622,7 +622,7 @@ sites:
     issue: 28
     at: '2026-11-03T11:35:16+00:00'
   last_run:
-    at: '2026-11-03T23:30:03+00:00'
+    at: '2026-11-04T06:28:05+00:00'
     status: failed
     vods: 0
     lines: 0
