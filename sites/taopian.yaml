@@ -36,10 +36,3 @@ browser: {}
 listing: {}
 budget: {}
 lines: {}
-probe:
-  categories:
-    - 电影
-    - 动漫
-    - 电视剧
-    - 短剧
-    - 伦理
