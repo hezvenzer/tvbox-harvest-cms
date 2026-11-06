@@ -627,3 +627,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: taopian
+  name: taopian
+  base_url: https://taopianapi.com
+  adapter: html_ssr
+  tier: 3
+  enabled: true
+  origin:
+    type: issue
+    issue: 30
+    at: '2026-11-06T15:37:27+00:00'
+  last_run: {}
