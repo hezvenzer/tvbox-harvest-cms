@@ -20,7 +20,7 @@ auth:
   type: none
   token_query_name: token
 maccms:
-  api_path: /cjapi/mc10/vod/json
+  api_path: /cjapi/mc/vod/json/m3u8.html
   categories_all: true
   page_limit: 20
   max_pages: 40
