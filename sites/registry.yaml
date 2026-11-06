@@ -627,19 +627,3 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
-- key: taopain
-  name: taopain
-  base_url: https://taopianapi.com
-  adapter: maccms_v10
-  tier: 1
-  enabled: true
-  origin:
-    type: issue
-    issue: 33
-    at: '2026-11-06T16:13:01+00:00'
-  last_run:
-    at: '2026-11-06T16:13:48+00:00'
-    status: failed
-    vods: 0
-    lines: 0
-    filtered: 0
