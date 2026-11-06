@@ -4,8 +4,8 @@ base_url: https://taopianapi.com
 adapter: maccms_v10
 enabled: true
 compliance:
-  policy: block_adult
-  bc_filter: true
+  policy: allow
+  bc_filter: false
 request:
   headers:
     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
