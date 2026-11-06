@@ -3,6 +3,12 @@
 # One term per line. Lines starting with '#' are comments. Matching is case-insensitive
 # substring matching for CJK terms and word-boundary matching for ASCII terms.
 
+# 成人内容关键词黑名单。
+# 用于匹配：vod_name（片名）/ vod_remarks（备注）/ vod_content（简介）/ cat_raw（原始分类）。
+# 每行一个关键词。以 '#' 开头的行为注释。匹配时不区分大小写：
+# 中日韩（CJK）词汇采用子字符串包含匹配，ASCII 英文词汇采用词边界匹配。
+# 谨慎使用：正则过度匹配会在不报错的情况下误删正常标题。规则如下(只是想在测试或合法配置中临时停用这条正则黑名单，注释掉的方法很简单：在每一行前面加#):
+
 # 成人
 # 情色
 # 色情
