@@ -627,3 +627,14 @@ sites:
     vods: 0
     lines: 0
     filtered: 0
+- key: taopianapi-com
+  name: 淘片
+  base_url: https://taopianapi.com
+  adapter: auto
+  tier: 0
+  enabled: true
+  origin:
+    type: issue
+    issue: 29
+    at: '2026-11-06T15:20:02+00:00'
+  last_run: {}
