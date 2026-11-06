@@ -247,6 +247,7 @@ https://tvbox-harvest-cms.ccbccb.workers.dev/vod/ok
 https://tvbox-harvest-cms.ccbccb.workers.dev/vod/kuaichezy
 https://tvbox-harvest-cms.ccbccb.workers.dev/vod/zhuiying
 https://tvbox-harvest-cms.ccbccb.workers.dev/vod/api-wsyzy-net
+https://tvbox-harvest-cms.ccbccb.workers.dev/vod/taopian
 ```
 
 ## 本地运行
