@@ -20,7 +20,7 @@ auth:
   type: none
   token_query_name: token
 maccms:
-  api_path: /api.php/provide/vod/
+  api_path: /cjapi/mc10/vod/json
   categories_all: true
   page_limit: 20
   max_pages: 40
