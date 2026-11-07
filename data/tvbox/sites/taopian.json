@@ -4,10 +4,10 @@
       "key": "taopian",
       "name": "taopian",
       "type": 1,
-      "api": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html",
+      "api": "https://taopianapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 0,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -25,7 +25,7 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "site-42255319032",
-  "generated_at": "2026-11-07T12:43:39+00:00",
+  "version": "site-2026-11-07T12:46:34+00:00",
+  "generated_at": "2026-11-07T12:46:34+00:00",
   "generated_by": "tvbox-harvest"
 }
