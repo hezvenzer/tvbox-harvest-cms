@@ -53,7 +53,7 @@ detect:
       - stage: tier2_no_match
         candidates_tried: 5
       - stage: tier3_probe
-        sample: https://missav.ws/en/dldss-584
+        sample: https://missav.ws/en/fns-273
         static_m3u8: 0
         extracted_episodes: 0
         player_marker_count: 2
@@ -68,14 +68,14 @@ detect:
       - player container present but zero static media URLs -> runtime-only
     facts:
       server: cloudflare
-      html_bytes: 330159
+      html_bytes: 334934
       is_html: true
       maccms_markers: []
       detail_link_clusters:
         - pattern: /en/{id}
-          count: 130
+          count: 122
         - pattern: /{id}/en/{id}
-          count: 47
+          count: 55
         - pattern: /{id}
           count: 31
         - pattern: /localizedUrl(
@@ -88,10 +88,10 @@ detect:
           count: 4
         - pattern: /en/vip
           count: 3
-      detail_html_bytes: 209666
-      detail_sample_url: https://missav.ws/en/dldss-584
+      detail_html_bytes: 214177
+      detail_sample_url: https://missav.ws/en/fns-273
       detail_cluster: /en/{id}
-  checked_at: '2026-11-06T11:03:38+00:00'
+  checked_at: '2026-11-07T10:23:17+00:00'
   result: auto
   tier: 0
   status: unknown

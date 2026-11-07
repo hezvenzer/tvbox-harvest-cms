@@ -370,14 +370,14 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "experimental-42344898435",
-  "generated_at": "2026-11-07T06:04:05+00:00",
+  "version": "experimental-42363331791",
+  "generated_at": "2026-11-07T10:27:11+00:00",
   "generated_by": "tvbox-harvest",
   "gateway": "https://tvbox.myeven.ccwu.cc",
   "_carried_over": [
     "dbzy",
     "hlzy-my",
-    "p2100",
-    "zhuiying"
+    "mtzy",
+    "p2100"
   ]
 }
