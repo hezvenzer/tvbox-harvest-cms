@@ -86,7 +86,7 @@ detect:
       detail_html_bytes: 23301
       detail_sample_url: https://www.libvio.cam/detail/5813885.html
       detail_cluster: /detail/{slug}.html
-  checked_at: '2026-11-07T10:23:00+00:00'
+  checked_at: '2026-11-08T10:32:43+00:00'
   result: auto
   tier: 0
   status: unknown
