@@ -385,8 +385,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "gateway-42774291845",
-  "generated_at": "2026-11-10T07:23:47+00:00",
+  "version": "gateway-42806333322",
+  "generated_at": "2026-11-10T11:27:52+00:00",
   "generated_by": "tvbox-harvest",
   "gateway": "https://tvbox.myeven.ccwu.cc",
   "_carried_over": [
@@ -394,7 +394,6 @@
     "hlzy-my",
     "mtzy",
     "p2100",
-    "taopian",
-    "zhuiying"
+    "taopian"
   ]
 }
