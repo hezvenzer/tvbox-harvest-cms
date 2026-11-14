@@ -7,7 +7,7 @@
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -25,7 +25,7 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "site-2026-11-13T19:47:54+00:00",
-  "generated_at": "2026-11-13T19:47:54+00:00",
+  "version": "site-43566044442",
+  "generated_at": "2026-11-14T06:29:11+00:00",
   "generated_by": "tvbox-harvest"
 }
