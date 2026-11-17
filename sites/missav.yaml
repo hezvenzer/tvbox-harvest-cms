@@ -68,14 +68,14 @@ detect:
       - player container present but zero static media URLs -> runtime-only
     facts:
       server: cloudflare
-      html_bytes: 333339
+      html_bytes: 334234
       is_html: true
       maccms_markers: []
       detail_link_clusters:
         - pattern: /en/{id}
-          count: 125
+          count: 122
         - pattern: /{id}/en/{id}
-          count: 48
+          count: 49
         - pattern: /{id}
           count: 31
         - pattern: /localizedUrl(
@@ -86,12 +86,12 @@ detect:
           count: 4
         - pattern: '/item.dvd_id '
           count: 4
-        - pattern: /en/vip
-          count: 3
-      detail_html_bytes: 201483
+        - pattern: /en/midv-747-english-subtitle
+          count: 4
+      detail_html_bytes: 201307
       detail_sample_url: https://missav.ws/en/simw-014
       detail_cluster: /en/{id}
-  checked_at: '2026-11-16T11:33:24+00:00'
+  checked_at: '2026-11-17T12:01:31+00:00'
   result: auto
   tier: 0
   status: unknown
