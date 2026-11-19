@@ -355,8 +355,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "direct-44517632955",
-  "generated_at": "2026-11-19T11:54:30+00:00",
+  "version": "direct-44610521791",
+  "generated_at": "2026-11-19T20:43:58+00:00",
   "generated_by": "tvbox-harvest",
   "_skipped": [
     {
@@ -367,6 +367,7 @@
   "_carried_over": [
     "dbzy",
     "hlzy-my",
+    "jinyingzy",
     "mtzy",
     "p2100",
     "taopian"
