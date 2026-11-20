@@ -53,7 +53,7 @@ detect:
       - stage: tier2_no_match
         candidates_tried: 5
       - stage: tier3_probe
-        sample: https://missav.ws/en/instv-741
+        sample: https://missav.ws/en/jimmy-016
         static_m3u8: 0
         extracted_episodes: 0
         player_marker_count: 2
@@ -68,14 +68,14 @@ detect:
       - player container present but zero static media URLs -> runtime-only
     facts:
       server: cloudflare
-      html_bytes: 336787
+      html_bytes: 335448
       is_html: true
       maccms_markers: []
       detail_link_clusters:
         - pattern: /en/{id}
-          count: 118
+          count: 130
         - pattern: /{id}/en/{id}
-          count: 52
+          count: 39
         - pattern: /{id}
           count: 31
         - pattern: /localizedUrl(
@@ -86,12 +86,12 @@ detect:
           count: 4
         - pattern: '/item.dvd_id '
           count: 4
-        - pattern: /dm6/en/{id}
+        - pattern: /en/aldn-042-english-subtitle
           count: 4
-      detail_html_bytes: 203697
-      detail_sample_url: https://missav.ws/en/instv-741
+      detail_html_bytes: 207207
+      detail_sample_url: https://missav.ws/en/jimmy-016
       detail_cluster: /en/{id}
-  checked_at: '2026-11-19T11:50:29+00:00'
+  checked_at: '2026-11-20T11:49:58+00:00'
   result: auto
   tier: 0
   status: unknown
