@@ -1,21 +1,21 @@
 key: lovedan-net
-name: 艾旦
+name: lovedan-net
 base_url: https://lovedan.net
 adapter: maccms_v10
 enabled: true
 compliance:
-  policy: block_adult
-  bc_filter: true
+  policy: allow
+  bc_filter: false
 request:
   headers:
-    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
-      Chrome/120.0.0.0 Safari/537.36
-    Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-  rate_limit: 1.0
-  timeout: 15.0
+    User-Agent: "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+    Accept-Language: "zh-CN,zh;q=0.9,en;q=0.8"
+    Referer: "https://lovedan.net/"
+  rate_limit: 2.0
+  timeout: 30.0
   retries: 3
   respect_robots: true
-  delay_jitter: 0.3
+  delay_jitter: 0.5
 auth:
   type: none
   token_query_name: token
@@ -39,8 +39,7 @@ lines: {}
 probe:
   categories:
     - 电影
-    - 电视剧
     - 动漫
+    - 电视剧
     - 短剧
-    - 伦理
 _generated_by: harvest
