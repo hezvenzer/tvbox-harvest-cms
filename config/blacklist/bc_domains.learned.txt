@@ -313,3 +313,7 @@ m3u8.doyinapi.com  # auto: 219 hits
 v.lzcdn27.com  # auto: 82 hits
 v.cdnlz21.com  # auto: 46 hits
 v.cdnlz28.com  # auto: 6 hits
+m3u8.doyinapi.com  # auto: 255 hits
+v.lzcdn27.com  # auto: 96 hits
+v.cdnlz28.com  # auto: 80 hits
+v.cdnlz21.com  # auto: 46 hits
