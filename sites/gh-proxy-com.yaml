@@ -80,7 +80,7 @@ detect:
           count: 3
         - pattern: /link
           count: 3
-  checked_at: '2026-11-22T11:35:43+00:00'
+  checked_at: '2026-11-23T12:58:32+00:00'
   result: auto
   tier: 0
   status: unknown

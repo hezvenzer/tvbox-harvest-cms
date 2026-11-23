@@ -59,7 +59,7 @@ detect:
       is_html: false
       maccms_markers: []
       detail_link_clusters: []
-  checked_at: '2026-11-22T11:35:45+00:00'
+  checked_at: '2026-11-23T12:59:02+00:00'
   result: auto
   tier: 0
   status: unknown
