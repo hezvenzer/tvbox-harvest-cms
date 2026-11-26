@@ -53,7 +53,7 @@ detect:
       - stage: tier2_no_match
         candidates_tried: 5
       - stage: tier3_probe
-        sample: https://missav.ws/en/dldss-587
+        sample: https://missav.ws/en/fns-278
         static_m3u8: 0
         extracted_episodes: 0
         player_marker_count: 2
@@ -68,30 +68,30 @@ detect:
       - player container present but zero static media URLs -> runtime-only
     facts:
       server: cloudflare
-      html_bytes: 338359
+      html_bytes: 333691
       is_html: true
       maccms_markers: []
       detail_link_clusters:
         - pattern: /en/{id}
           count: 125
         - pattern: /{id}/en/{id}
-          count: 54
+          count: 51
+        - pattern: /{id}
+          count: 25
         - pattern: /localizedUrl(
           count: 24
-        - pattern: /{id}
-          count: 23
         - pattern: /itemUrl(item)
           count: 20
         - pattern: /{id}/en/uncensored-leak
           count: 4
         - pattern: '/item.dvd_id '
           count: 4
-        - pattern: /en/vip
-          count: 3
-      detail_html_bytes: 221978
-      detail_sample_url: https://missav.ws/en/dldss-587
+        - pattern: /dm2/en/{id}
+          count: 4
+      detail_html_bytes: 216366
+      detail_sample_url: https://missav.ws/en/fns-278
       detail_cluster: /en/{id}
-  checked_at: '2026-11-25T13:06:11+00:00'
+  checked_at: '2026-11-26T12:46:37+00:00'
   result: auto
   tier: 0
   status: unknown
