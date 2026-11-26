@@ -7,7 +7,7 @@
       "api": "https://aosikazy9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 1,
       "playerType": 2,
       "style": {
@@ -385,12 +385,11 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "gateway-45822036342",
-  "generated_at": "2026-11-26T12:50:34+00:00",
+  "version": "gateway-45898702288",
+  "generated_at": "2026-11-26T21:37:33+00:00",
   "generated_by": "tvbox-harvest",
   "gateway": "https://tvbox.myeven.ccwu.cc",
   "_carried_over": [
-    "aosikazy9",
     "dbzy",
     "hlzy-my",
     "mtzy",
