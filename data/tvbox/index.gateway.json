@@ -376,6 +376,14 @@
         ],
         "official_only": true
       }
+    },
+    {
+      "name": "4K",
+      "type": 1,
+      "url": "https://tv.lxyy.club/json-player.php?route=official_mx0bc9vn&url=",
+      "ext": {
+        "official_only": true
+      }
     }
   ],
   "flags": [],
@@ -385,8 +393,8 @@
   "wallpaper": "",
   "ua": "",
   "requestHeader": {},
-  "version": "gateway-46122901111",
-  "generated_at": "2026-11-28T07:55:25+00:00",
+  "version": "gateway-46141909748",
+  "generated_at": "2026-11-28T12:02:39+00:00",
   "generated_by": "tvbox-harvest",
   "gateway": "https://tvbox.myeven.ccwu.cc",
   "_carried_over": [

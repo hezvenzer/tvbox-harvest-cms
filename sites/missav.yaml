@@ -68,14 +68,14 @@ detect:
       - player container present but zero static media URLs -> runtime-only
     facts:
       server: cloudflare
-      html_bytes: 332031
+      html_bytes: 335835
       is_html: true
       maccms_markers: []
       detail_link_clusters:
         - pattern: /en/{id}
-          count: 114
+          count: 123
         - pattern: /{id}/en/{id}
-          count: 60
+          count: 52
         - pattern: /{id}
           count: 25
         - pattern: /localizedUrl(
@@ -86,12 +86,12 @@ detect:
           count: 4
         - pattern: '/item.dvd_id '
           count: 4
-        - pattern: /en/orecz-173-uncensored-leak
+        - pattern: /dm1/en/meyd-280-english-subtitle
           count: 4
-      detail_html_bytes: 210455
+      detail_html_bytes: 213203
       detail_sample_url: https://missav.ws/en/jimmy-018
       detail_cluster: /en/{id}
-  checked_at: '2026-11-27T12:36:10+00:00'
+  checked_at: '2026-11-28T11:57:32+00:00'
   result: auto
   tier: 0
   status: unknown
